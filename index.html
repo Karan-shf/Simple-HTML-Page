@@ -5,31 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Manchester United</title>
-    <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="resources/favicon.ico">
 </head>
 <body>
-<!-- 
-    header
-    nav
-    aside
-    footer
-    main
-    section
-    p
-    div
-    span
-    h1 ... h6 (یک یا چند مورد به دلخواه)
-    ul li (از لیست های تو در تو هم استفاده شود)
-    table (tr th td)
-    a (target)
-    img (alt)
-    audio (حجم کمتر از 5 مگابایت)
-    video (حجم کمتر از 5 مگابایت)
-    button 
--->
-
         <header>
-            <img src="imgs/header_flag.png" alt="Manchester United Club Flag">
+            <img src="resources/header_flag.png" alt="Manchester United Club Flag">
         </header>
 
         <nav>
@@ -134,6 +114,16 @@
             <br>
 
             <div>
+                <h3>Old Trafford Tour Documantary</h3>
+                <video src="resources/Old_Trafford_Tour.mp4" controls></video>
+                <h4>Documantary Audio</h4>
+                <audio src="resources/Old_Trafford_Stadium_Tour_audio.mp3" controls></audio>
+            </div>
+
+            <br>
+            <br>
+
+            <div>
                 <p>Show Your Love to the Team</p>
                 <button type="button" onclick="func()">Love</button>
                 <script>
@@ -145,8 +135,6 @@
                 </script>
                 <p>Your Love: <span id="Love">0</span></p>
             </div>
-
-
             
         </main>
 
