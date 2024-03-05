@@ -1,24 +1,8 @@
-/* body, html {
-    height: 100%;
-    background-color: black;
-  }
-  
-  .bg { 
-    /* The image used */
-    /* background-image: url("imgs/header_flag.png"); */
-  
-    /* Full height */
-    /* height: 100%;  */
-  
-    /* Center and scale the image nicely */
-    /* background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }  */
-
-
-
-
+header {
+    /* box-sizing: border-box; */
+    /* background-color: brown; */
+    margin: -8px;
+}
 
 header img {
     height: 100%;
@@ -44,4 +28,10 @@ table {
 td,th {
     text-align: left;
     padding: 5px;
+}
+
+footer {
+    background-color: gray;
+    margin: -8px;
+    padding: 10px;
 }

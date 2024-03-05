@@ -28,16 +28,16 @@
     button 
 -->
 
-        <header >
+        <header>
             <img src="imgs/header_flag.png" alt="Manchester United Club Flag">
         </header>
 
         <nav>
             <ul>
-                <li><a href="https://www.manutd.com" target="_blank">The Official Man United Website</a></li>
-                <li><a href="https://twitter.com/search/manchester+united" target="_blank">Man United Twitter</a></li>
-                <li><a href="https://www.instagram.com/manchesterunited/" target="_blank">Man United Instagram</a></li>
-                <li><a href="https://www.facebook.com/manchesterunited/" target="_blank">Man United Facebook</a></li>
+                <li><a href="https://www.manutd.com" target="_blank" alt="The Official Man United Website">The Official Man United Website</a></li>
+                <li><a href="https://www.twitter.com/search/manchester+united" target="_self" alt="Man United Twitter">Man United Twitter</a></li>
+                <li><a href="https://www.instagram.com/manchesterunited/" target="_top" alt="Man United Instagram">Man United Instagram</a></li>
+                <li><a href="https://www.facebook.com/manchesterunited/" target="_parent" alt="Man United Facebook">Man United Facebook</a></li>
             </ul>
         </nav>
 
@@ -49,11 +49,23 @@
                 <p>Manchester United Football Club, commonly referred to as Man United (often stylised as Man Utd), or simply United, is a professional football club based in <span id="th_dream">Old Trafford</span> , Greater Manchester, England. The club competes in the Premier League, the top division in the English football league system. Nicknamed the <span id="red_devils">Red Devils</span> , they were founded as Newton Heath LYR Football Club in 1878, but changed their name to Manchester United in 1902. After a spell playing in Clayton, Manchester, the club moved to their current stadium, Old Trafford, in 1910.</p>
                 <p>Domestically, Manchester United have won a record 20 top-flight league titles, 12 FA Cups, six League Cups and a record 21 FA Community Shields. In international football, they have won the European Cup/UEFA Champions League three times, and the UEFA Europa League, the UEFA Cup Winners' Cup, the UEFA Super Cup, the Intercontinental Cup and the FIFA Club World Cup once each.[6][7] In 1968, under the management of Matt Busby, 10 years after eight of the club's players were killed in the Munich air disaster, they became the first English club to win the European Cup. Sir Alex Ferguson is the club's longest-serving and most successful manager, winning 38 trophies, including 13 league titles, five FA Cups, and two Champions League titles between 1986 and 2013.[8][9] In the 1998–99 season, under Ferguson, the club became the first in the history of English football to achieve the continental treble of the Premier League, FA Cup and UEFA Champions League.[10] In winning the UEFA Europa League under José Mourinho in 2016–17, they became one of five clubs to have won the original three main UEFA club competitions (the Champions League, Europa League and Cup Winners' Cup).</p>
             </section>
+
+            <div>
+                <h3>Club Uniform</h3>
+                <dl>
+                    <dt>Home Color</dt>
+                    <dd>Red</dd>
+                    <dt>Away Color</dt>
+                    <dd>black</dd>
+                    <dt>Third Color</dt>
+                    <dd>white</dd>
+                </dl>
+            </div>
             
             <aside>
                 <h3>list of club sponsers over time:</h3>
 
-                <ul>
+                <ol>
 
                     <li>
                         Umbro
@@ -90,17 +102,16 @@
                         </ul>
                     </li>
 
-                </ul>
-
+                </ol>
             </aside>
 
-            <div>
+            <article>
                 <h3>Details:</h3>
 
                 <table>
                     <tr>
                         <th>full name</th>
-                        <th>Nickname(s)</th>
+                        <th>Nickname</th>
                         <th>Short name</th>
                         <th>Ground</th>
                         <th>Capacity</th>
@@ -117,10 +128,33 @@
                         <td>Premier League</td>
                     </tr>
                 </table>
+            </article>
+
+            <br>
+            <br>
+
+            <div>
+                <p>Show Your Love to the Team</p>
+                <button type="button" onclick="func()">Love</button>
+                <script>
+                    var i = 0
+                    function func(){
+                        i++;
+                        document.getElementById("Love").innerHTML = i
+                    }
+                </script>
+                <p>Your Love: <span id="Love">0</span></p>
             </div>
+
+
             
         </main>
 
-        <footer></footer>
+        <br>
+
+        <footer>
+            <p>written by: Karan Shahkolaee</p>
+            <p>copyright&copy; 2024</p>
+        </footer>
 </body>
 </html>
