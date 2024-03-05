@@ -1,0 +1,47 @@
+/* body, html {
+    height: 100%;
+    background-color: black;
+  }
+  
+  .bg { 
+    /* The image used */
+    /* background-image: url("imgs/header_flag.png"); */
+  
+    /* Full height */
+    /* height: 100%;  */
+  
+    /* Center and scale the image nicely */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }  */
+
+
+
+
+
+header img {
+    height: 100%;
+    width: 100%;
+    /* margin: -10px; */
+    /* margin-right: -100%; */
+   
+}
+
+#red_devils {
+    color: red;
+}
+
+#th_dream {
+    font-weight: bold;
+}
+
+table {
+    border: 5px solid black;
+    width: 300px;
+}
+
+td,th {
+    text-align: left;
+    padding: 5px;
+}
